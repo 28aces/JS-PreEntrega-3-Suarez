@@ -26,7 +26,7 @@ El sistema debe tener las siguientes características:
 
 ## Entrega
 
-- Contiene un archivo `index.html` con el prompt de búsqueda.
+- Contiene un archivo `index.html` con la estructura de la interfaz.
 - Contiene un archivo `styles.css` con el estilo de la interfaz.
-- Contiene un archivo `main.js` con la interfaz de usuario.
+- Contiene un archivo `main.js` con los objetos y funciones necesarios para la interfaz.
 - Contiene un archivo `data.js` con la base de datos de los 151 Pokémon.
