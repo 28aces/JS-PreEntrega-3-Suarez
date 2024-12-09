@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex v1.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Pokédex</h1>
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="search-bar" 
+          placeholder="Busca un Pokémon por nombre, tipo o número..."
+        />
+        <button id="search-button" class="search-button">Buscar</button>
+      </div>
+    </header>
+    <main>
+      <section id="pokemon-grid" class="grid"></section>
+      <aside id="caught-sidebar">
+        <h2>Pokémons atrapados</h2>
+        <ul id="caught-list"></ul>
+        <p id="no-caught-message">No has atrapado a ningún Pokémon!</p>
+        <div class="sidebar-controls">
+          <button id="clear-list-button">Quitar todos</button>
+          <p id="caught-count"></p>
+        </div>
+      </aside>      
+    </main>
+  </div>
+  <script type="module" src="./JS/main.js"></script>
+  <script type="module" src="./JS/data.js"></script>
+</body>
+</html>
